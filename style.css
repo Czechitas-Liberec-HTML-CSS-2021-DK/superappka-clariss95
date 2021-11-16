@@ -1,6 +1,15 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
 
 /*
  BARVY
@@ -24,10 +33,13 @@ body {
 }
 
 .obal {
-    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
-    margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    width: 960px;
+    /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto;
+    /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+
 
 /* ----- zde začni psát vlastní CSS ----- */
