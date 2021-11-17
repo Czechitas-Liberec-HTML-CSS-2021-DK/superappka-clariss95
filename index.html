@@ -6,6 +6,7 @@
     <title>Mobilní aplikace</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -14,40 +15,53 @@
         <!-- tvoje HTML sem -->
 
         <ul>
-            <li><a href="#">Super Appka</a></li>
+            <li><a class="SA" href="#">Super Appka</a></li>
             <li><a href="#">Úžasný design</a></li>
             <li><a href="#">Boží funkce</a></li>
             <li><a href="#">Zdarma ke stažení</a></li>
         </ul>
 
-        <section class="uvod">
+        <div class="uvod">
+
+
+
             <h1>Super Appka</h1>
-            <h2>Úžasná mobilní aplikace, která Ti změní život</h2>
-            <button>Stáhnout zdarma</button>
-            <button>Více informací</button>
-        </section>
+            <h2>Úžasná mobilní aplikace, <br> která Ti změní život.</h2>
+            <!-- je <br> v tomto případě ok?-->
+
+            <div class="tlacitka">
+                <button id="oznaceny">Stáhnout zdarma</button>
+                <button>Více informací</button>
+            </div>
+
+
+            <img class="mobil" src="images/telefon.png" alt="ruka držící telefon">
+
+        </div>
 
         <div class="container">
             <div class="item">
                 <img src="images/letadlo.svg" alt="letadlo">
-                <p>blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-                </p>
+
+                <h3>Cestuj po světě</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi vitae animi alias expedita dolores incidunt impedit! Aliquid commodi eius animi veritatis saepe dolore cum.</p>
             </div>
 
             <div class="item">
                 <img src="images/bubliny.svg" alt="chat">
-                <p>blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-                </p>
+
+                <h3>Chatuj s přáteli</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi vitae animi alias expedita dolores incidunt impedit! Aliquid commodi eius animi veritatis saepe dolore cum.</p>
             </div>
 
             <div class="item">
                 <img src="images/mapa.svg" alt="mapa">
-                <p>blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-                </p>
+                <h3>Zažij dobrodružství</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi vitae animi alias expedita dolores incidunt impedit! Aliquid commodi eius animi veritatis saepe dolore cum.</p>
             </div>
-
-            <footer>©2016, Web od A do Z</footer>
         </div>
+        <footer>©2016, Web od A do Z</footer>
+
     </div>
 
 

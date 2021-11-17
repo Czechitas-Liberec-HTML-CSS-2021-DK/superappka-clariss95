@@ -1,17 +1,15 @@
-/* nejsme vcerejsi, pouzivame moderni box model */
-
-html {
-    box-sizing: border-box;
-}
-
-*,
- ::after,
- ::before {
-    box-sizing: inherit;
-}
-
-
-/*
+                        /* nejsme vcerejsi, pouzivame moderni box model */
+                        
+                        html {
+                            box-sizing: border-box;
+                        }
+                        
+                        *,
+                         ::after,
+                         ::before {
+                            box-sizing: inherit;
+                        }
+                        /*
  BARVY
  sede pozadi      #e5e5e5
  svetle fialova   #48418e
@@ -21,25 +19,137 @@ html {
  Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
  https://fonts.google.com/specimen/Roboto
 */
-
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #e5e5e5;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.obal {
-    width: 960px;
-    /* obsah stránky je omezený do pruhu širokého 960px */
-    margin: 0 auto;
-    /* pruh je na stránce vycentrovaný */
-    background: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-
-/* ----- zde začni psát vlastní CSS ----- */
+                        
+                        body {
+                            padding: 0;
+                            margin: 0;
+                            background-color: #e5e5e5;
+                            font-family: "Source Sans Pro", sans-serif;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 1.5;
+                        }
+                        
+                        .obal {
+                            width: 960px;
+                            /* obsah stránky je omezený do pruhu širokého 960px */
+                            margin: 0 auto;
+                            /* pruh je na stránce vycentrovaný */
+                            background: white;
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                        }
+                        /* ----- zde začni psát vlastní CSS ----- */
+                        
+                        ul {
+                            list-style: none;
+                            padding-left: 15px;
+                            margin: 0;
+                        }
+                        
+                        li {
+                            display: inline-block;
+                            padding-left: 30px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                        }
+                        
+                        a {
+                            font-family: 'Roboto', sans-serif;
+                            color: #202020;
+                            text-decoration: none;
+                            font-weight: 300;
+                        }
+                        
+                        li .SA {
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            color: #25133d;
+                        }
+                        
+                        .uvod {
+                            background-image: url(images/pozadi.jpg);
+                            height: 450px;
+                            background-size: cover;
+                            padding-left: 45px;
+                            position: relative;
+                        }
+                        
+                        h1 {
+                            font-size: 80px;
+                            color: white;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 30px;
+                            margin: 0;
+                        }
+                        
+                        h2 {
+                            font-size: 40px;
+                            color: white;
+                            font-weight: 300;
+                            position: absolute;
+                            bottom: 170px;
+                            margin: 0;
+                        }
+                        
+                        h3 {
+                            color: #48418e;
+                        }
+                        
+                        .mobil {
+                            position: absolute;
+                            right: 0;
+                            bottom: 0;
+                        }
+                        
+                        .tlacitka {
+                            position: absolute;
+                            bottom: 60px;
+                        }
+                        
+                        button {
+                            background-color: transparent;
+                            border-radius: 7px;
+                            border: white 0.5px solid;
+                            color: white;
+                            height: 50px;
+                            margin-right: 20px;
+                            padding: 0 20px 0 20px;
+                            text-align: center;
+                        }
+                        
+                        #oznaceny {
+                            background-color: #48418e;
+                        }
+                        
+                        .container {
+                            display: flex;
+                            flex-wrap: no-wrap;
+                            justify-content: space-around;
+                        }
+                        
+                        .item {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            padding: 30px;
+                        }
+                        
+                        .item img {
+                            width: 50px;
+                        }
+                        
+                        .item p {
+                            margin: 0;
+                        }
+                        
+                        .item h3 {
+                            margin: 10px;
+                        }
+                        
+                        footer {
+                            text-align: center;
+                            color: white;
+                            background-color: #48418e;
+                        }
