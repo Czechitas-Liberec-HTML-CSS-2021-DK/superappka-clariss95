@@ -60,6 +60,10 @@
                             font-weight: 300;
                         }
                         
+                        a:hover {
+                            color: #48418e;
+                        }
+                        
                         li .SA {
                             text-transform: uppercase;
                             font-weight: 700;
@@ -83,7 +87,7 @@
                             margin: 0;
                         }
                         
-                        h2 {
+                        .uvod p {
                             font-size: 40px;
                             color: white;
                             font-weight: 300;
@@ -116,6 +120,7 @@
                             margin-right: 20px;
                             padding: 0 20px 0 20px;
                             text-align: center;
+                            cursor: pointer;
                         }
                         
                         #oznaceny {
